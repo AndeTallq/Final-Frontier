@@ -1,0 +1,79 @@
+body{
+  background-color: black;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+h3{
+  color: white;
+  font-weight: bold;
+  font-size: 70px;
+  padding-left: 200px;
+  padding-right: 0px;
+  margin-top: -10px;
+
+
+}
+.moon1 img{
+  width: 50%;
+  height: 50%;
+  padding-left: 75%;
+  margin-top: -600px;
+  margin-left: -100px;
+  margin-bottom: -250px;
+
+}
+.astro1 img{
+
+  width: 30%;
+  height: 30%;
+  margin-top: -200px;
+  margin-bottom:200px;
+  margin-left: 1px;
+  border-radius:1px;
+
+}
+.box1{
+box-sizing: border-box;
+border: 30px;
+background-color: black;
+text-align: left;
+margin-top: 50px;
+
+}
+h2{
+color: white;
+font-size: 30px;
+font-style: italic;
+margin-top: -1200px;
+margin-bottom: 1000px;
+padding-left: 500px;
+padding-top: 300px;
+}
+.border{
+  box-sizing: border-box;
+  background-color: #151515;
+  margin-top: -400px;
+  height: 30px;
+  border-radius: 1px;
+}
+.aboutus{
+
+
+}
+h1{
+color: white;
+font-size: 30px;
+text-align: center;
+
+}
+h4{
+color: white;
+font-size: 20px;
+text-align: center;
+}
+
+.spacebg img{
+margin-top: 1000px;
+  width:100%
+}
