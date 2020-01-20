@@ -1,0 +1,155 @@
+/* RESET STYLES */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* GENERAL STYLES */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  width: 100%;
+  color: #fff;
+  background: #000;
+}
+
+/* TOP SECTION STYLES */
+#top {
+  min-height: 600px;
+  background: url('moon1.jpg') no-repeat;
+  background-size: contain;
+  background-position: center right;
+}
+
+.top-wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.top-wrapper .title {
+  font-size: 80px;
+}
+
+.top-wrapper .title span {
+  display: block;
+}
+
+/* MIDDLE SECTION STYLES */
+#middle {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.middle-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.middle-wrapper .image {
+  display: block;
+  width: 30%;
+}
+
+.middle-wrapper .text {
+  width: 65%;
+  font-size: 30px;
+}
+
+/* NAV SECTION STYLES */
+#divider {
+  padding: 15px 30px;
+  margin-top: 50px;
+  background: #151515;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.navigation ul li {
+  padding: 0 10px;
+}
+
+.navigation ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* BOTTOM SECTION STYLES */
+#bottom {
+  background: url('astro2.png') no-repeat;
+  background-size: contain;
+  background-position: center right;
+  min-height: 400px;
+}
+
+.bottom-wrapper {
+  padding: 30px;
+  text-align: center;
+}
+
+.bottom-wrapper .text {
+  max-width: 800px;
+  margin: 0 auto;
+ }
+
+.bottom-wrapper .text h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.bottom-wrapper .text p {
+  font-size: 20px;
+}
+
+/* MEDIA QUERIES STYLES */
+@media only screen and (max-width: 1000px) {
+
+  .middle-wrapper .image {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .middle-wrapper .text {
+    width: 100%;
+    color: red;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .middle-wrapper .text {
+    font-size: 20px;
+  }
+}
+
